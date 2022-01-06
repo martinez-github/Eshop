@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+
+<AnchorPane prefHeight="603.0" prefWidth="827.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.WishList">
+   <children>
+      <ScrollPane layoutX="41.0" layoutY="14.0" prefHeight="515.0" prefWidth="745.0">
+         <content>
+            <FlowPane fx:id="Content" prefHeight="470.0" prefWidth="796.0" />
+         </content>
+      </ScrollPane>
+      <Label fx:id="Sales" alignment="CENTER" layoutX="483.0" layoutY="544.0" prefHeight="36.0" prefWidth="139.0" />
+      <Label fx:id="price" alignment="CENTER" layoutX="622.0" layoutY="544.0" prefHeight="36.0" prefWidth="139.0" />
+      <Button layoutX="41.0" layoutY="550.0" mnemonicParsing="false" onAction="#WishListBuy" prefHeight="36.0" prefWidth="97.0" text="Pirkti" />
+   </children>
+</AnchorPane>

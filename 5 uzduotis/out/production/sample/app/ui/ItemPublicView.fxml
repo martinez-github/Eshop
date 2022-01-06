@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="Anchor" prefHeight="200.0" prefWidth="542.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.ItemPublicViewController">
+   <children>
+      <ImageView fx:id="image" fitHeight="174.0" fitWidth="146.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="titleLabel" layoutX="167.0" layoutY="23.0" text="Label" />
+      <Label fx:id="descriptionLabel" layoutX="167.0" layoutY="49.0" text="Label" />
+      <Label layoutX="179.0" layoutY="160.0" text="Kaina:" />
+      <Label fx:id="priceLabel" layoutX="219.0" layoutY="160.0" text="Label" />
+      <Button fx:id="Remove" layoutX="504.0" layoutY="11.0" mnemonicParsing="false" onAction="#Remove" text="X" visible="false" />
+      <Button fx:id="Add" layoutX="504.0" layoutY="11.0" mnemonicParsing="false" onAction="#Add" text="+" visible="false" />
+      <Button fx:id="CommentButton" layoutX="279.0" layoutY="165.0" mnemonicParsing="false" onAction="#AddComent" text="Add comment" visible="false" />
+      <ChoiceBox fx:id="CommentsBox" layoutX="271.0" layoutY="37.0" prefHeight="25.0" prefWidth="256.0" visible="false" />
+      <TextField fx:id="CommentField" layoutX="380.0" layoutY="165.0" visible="false" />
+      <Button fx:id="CommentDeleteButton" layoutX="273.0" layoutY="165.0" mnemonicParsing="false" onAction="#DeleteComment" text="Delete comment" visible="false" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.MainWindowController">
+   <children>
+      <Pane prefHeight="575.0" prefWidth="900.0">
+         <children>
+            <Button fx:id="ADMIN" mnemonicParsing="false" onAction="#AdminThings" prefHeight="42.0" prefWidth="900.0" text="Admin part" visible="false" />
+            <Button fx:id="wishlist" mnemonicParsing="false" onAction="#WishlistOpen" prefHeight="42.0" prefWidth="478.0" text="Wishlist" visible="false" />
+            <VBox fx:id="sideMenu" layoutX="4.0" layoutY="71.0" prefHeight="496.0" prefWidth="177.0" spacing="10.0" />
+            <Button fx:id="Accountant" layoutY="8.0" mnemonicParsing="false" onAction="#Accountantpart" prefHeight="42.0" prefWidth="900.0" text="Accountant part" visible="false" />
+            <Button fx:id="ItemHistory" layoutX="478.0" mnemonicParsing="false" onAction="#ItemHis" prefHeight="42.0" prefWidth="423.0" text="Item History" visible="false" />
+            <ScrollPane layoutX="191.0" layoutY="51.0" prefHeight="519.0" prefWidth="705.0">
+               <content>
+                  <FlowPane fx:id="content" prefHeight="494.0" prefWidth="693.0" />
+               </content>
+            </ScrollPane>
+         </children></Pane>
+   </children>
+</AnchorPane>

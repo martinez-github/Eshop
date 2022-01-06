@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.ItemHistory">
+   <children>
+      <ScrollPane layoutX="14.0" layoutY="14.0" prefHeight="376.0" prefWidth="576.0">
+         <content>
+            <FlowPane fx:id="ConntentPane" prefHeight="364.0" prefWidth="564.0" />
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
